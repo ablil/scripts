@@ -1,27 +1,28 @@
 #!/usr/bin/env python3
 
-class Tree:
-    '''
-    Define some algorithms related to Tree data structure
-    '''
 
-    def __init__(self, data = None):
+class Tree:
+    """
+    Define some algorithms related to Tree data structure
+    """
+
+    def __init__(self, data=None):
         self.data = data
         self.right_child = None
         self.left_child = None
 
     def __repr__(self):
-        res = 'Data: {}'.format(self.data)
+        res = "Data: {}".format(self.data)
 
-        if self.right_child :
-            res += '\nRight child: {}'.format(self.right_child.data)
+        if self.right_child:
+            res += "\nRight child: {}".format(self.right_child.data)
         else:
-            res += '\nRight child: None'
+            res += "\nRight child: None"
 
-        if self.left_child :
-            res += '\nLeft child: {}'.format(self.left_child.data)
+        if self.left_child:
+            res += "\nLeft child: {}".format(self.left_child.data)
         else:
-            res += '\nLeft child: None'
+            res += "\nLeft child: None"
 
         return res
 
@@ -31,7 +32,7 @@ class Tree:
         if self.data == None:
             return
 
-        if self.data < obj.data :
+        if self.data < obj.data:
             if self.right_child == None:
                 self.right_child = obj
             else:
