@@ -1,11 +1,7 @@
-# Shell
+# shell
 
-## Description
-IF YOU DONT KNOW SHELL, YOUR ARE IN THE WRONG PLACE BUDDY.
+# Description
+if you dont know shell, your are in the wrong place buddy.
 
-## Index
-
-* header.sh
-* signapk.sh
-* spoofmac.sh
-* xpath.sh
+<br>
+These are some handy scripts I use to automate some tasks.
