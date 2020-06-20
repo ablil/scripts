@@ -8,7 +8,6 @@
 # Email		: ablil@protonmail.com
 ###########################################################
 
-!/bin/bash
 
 usage() {
     echo "Usage: "
