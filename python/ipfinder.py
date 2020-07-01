@@ -4,33 +4,37 @@
 import sys
 import json
 import requests
-from is_ipv4 import is_ipv4
-
+import re
 
 url = "https://tools.keycdn.com/geo.json?host="
 usage = "usage : python3 ip_finder.py 105.42.108.231"
 
 if __name__ == "__main__":
 
-    # add help menu
-    if len(sys.argv) == 2 and sys.argv[1] in ("-h", "--help"):
+    # check argument count
+    if len(sys.argv) != 2:
         print(usage)
-        exit()
+        sys.exit(-1)
+
+    # check help menu
+    if sys.argv[1] in ("-h", "--help"):
+        print(usage)
+        sys.exit(0)
 
     # check if IP is valid or not & set url
-    try:
-        if not is_ipv4(sys.argv[1]):
-            print("invalid ip address !!!")
-            exit()
-        final_url = url + str(sys.argv[1])
-    except IndexError:
-        print(usage)
-        exit()
-    except Exception as e:
-        raise e
+    if not re.match(r"^(([2][5][0-5]\.)|([2][0-4][0-9]\.)|([0-1]?[0-9]?[0-9]\.)){3}(([2][5][0-5])|([2][0-4][0-9])|([0-1]?[0-9]?[0-9]))$", sys.argv[1]):
+        print("Invalid IP Address")
+        sys.exit(1)
+    else:
+        splited = sys.argv[1].split('.')
+        for part in splited:
+            if not int(part) in range(1, 255):
+                print("Invalid IP Address")
+                sys.exit(2);
 
     # get respone from url API
-    response = requests.get(final_url)
+    request_url = url + str(sys.argv[1])
+    response = requests.get(request_url)
     json_data = response.json()  # transform to json format
 
     if json_data["status"] == "success":
