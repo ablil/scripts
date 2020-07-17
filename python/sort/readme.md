@@ -4,9 +4,10 @@ The following class contains most popular sorting algorithms :computer:, impleme
 Feel Free to improve this repository by adding new algorithms :smile:
 
 ## Algorithms List:
-* Bubble sort.
-* Insertion sort.
-* Merge sort.
-* Quick sort.
-* Selection sort.
-* Shell sort.
+
+  * bubble_sort.py : complexity o(n*n)
+  * insertion_sort.py : complexity o(n*n)
+  * merge_sort.py : complexity o(nlog(n))
+  * quick_sort.py : complexity o(n*n)
+  * selection_sort.py : complexity o(n*n)
+  * shell_sort.py : complexity o(nlog(n))

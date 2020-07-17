@@ -1,34 +1,43 @@
 # Python
 
 ## Description
-IF YOU DO NOT KNOW PYTHON, THAN YOU ARE IN THE WRONG PLACE BUDDY.
+General utility script.
 
-## Index
+I wrote these for fun or to automate some task.
 
-* arp_sniffer.py
-* colors.py
-* content_bruteforcer.py
-* dns_changer.py
-* fibonacci.py
-* helloworld.py
-* installed_pkgs.py
-* ip_finder.py
-* is_ipv4.py
-* is_mac.py
-* logs_harverster.py
-* md5sum.py
-* morse_code.py
-* morse_code_win.py
-* mp4tomp3.py
-* netcat.py
-* osinfo.py
-* port_scaner.py
-* proxy.py
-* ssh_bruteforcer.py
-* ssh.py
-* tree.py
-* twitter_followers_ids.py
-* url_inspector.py
-* whatsmyip.py
-* youtube_downloader.py
-* zip_cracker.py
+## Content
+
+* Directories:
+
+  * bhp/: BlackHatPython scripts
+  * sort/ : Sorting Algorithms
+
+
+* Scripts:
+
+  * arp_sniffer.py: Simple ARP packets sniffer
+  * colors.py: Display color with numbers for bash scripts
+  * content_bruteforcer.py: URL res finder/lookup
+  * dns_changer.py: add hostname to hosts file
+  * fibonacci.py: The famous Fibonacci
+  * helloworld.py: First script everyone starts with
+  * installed_pkgs.py: Display installed package on Debian based Linux from log files
+  * ipfinder.py: IP Lookup utility
+  * is_ipv4.py: Check IPv4 addresses format
+  * is_mac.py: Check MAC addresses format
+  * logs_harverster.py: Find .log files recursively
+  * md5sum.py: md5 hash utility
+  * morse_code.py: morse code (terminal based)
+  * morse_code_win.py: morse code for sound windows (support for beep sound)
+  * netcat.py: Netcat implemenation with python
+  * osinfo.py: Get information about the running linux distribution
+  * port_scaner.py: Simple Post scanner
+  * proxy.py: Simple proxy server implementation
+  * ssh.py: ssh client tools (for windows)
+  * ssh_bruteforcer.py: SSH server bruteforcer
+  * tree.py: Tree Data structure algorithms
+  * twitter_followers_ids.py: List id of your twitter followers
+  * url_inspector.py: Check URLs status
+  * whatsmyip.py: Get Your current public IP
+  * youtube_downloader.py: Youtube video downloader utility based on youtube-dl
+  * zip_cracker.py: ZIP file password cracker
