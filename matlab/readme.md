@@ -5,11 +5,11 @@ MATLAB is a multi-paradigm numerical computing environment and proprietary progr
 
 ## Index
 
-* arithmetic_geometric.m
-* common_signals.m
-* decompositionLU.m
-* diagonalisationParGauss.m
-* plot_convolution.m
-* plot_correlation.m
-* plot_fourierTransform.m
-* Three_Phase_System.m
+* arithmetic_geometric.m: Check sequence type (arithmetic/geomatric) and cal sum.
+* common_signals.m: Display common signals on signal processing
+* decompositionLU.m: LU Decomposition on linear calculation
+* diagonalisationParGauss.m: Diag a matrix using Gauss algorithm
+* plot_convolution.m: Plot convolution in signal processing
+* plot_correlation.m: Plot correlation in signal processing
+* plot_fourierTransform.m: Plot Fourrier Transfrom
+* Three_Phase_System.m: Plot Three phase transformer current/voltage
