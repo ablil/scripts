@@ -26,6 +26,7 @@ I wrote these for fun or to automate some task.
   * is_ipv4.py: Check IPv4 addresses format
   * is_mac.py: Check MAC addresses format
   * logs_harverster.py: Find .log files recursively
+  * mac-vendor.py: Find MAC vendor using a public api
   * md5sum.py: md5 hash utility
   * morse_code.py: morse code (terminal based)
   * morse_code_win.py: morse code for sound windows (support for beep sound)
