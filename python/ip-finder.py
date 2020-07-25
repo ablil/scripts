@@ -7,7 +7,7 @@ import requests
 import re
 
 url = "https://tools.keycdn.com/geo.json?host="
-usage = "usage : python3 ip_finder.py 105.42.108.231"
+usage = f"usage : python3 {sys.argv[0]} 105.42.108.231"
 
 if __name__ == "__main__":
 

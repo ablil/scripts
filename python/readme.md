@@ -22,7 +22,7 @@ I wrote these for fun or to automate some task.
   * fibonacci.py: The famous Fibonacci
   * helloworld.py: First script everyone starts with
   * installed_pkgs.py: Display installed package on Debian based Linux from log files
-  * ipfinder.py: IP Lookup utility
+  * ip-finder.py: IP Lookup utility
   * is_ipv4.py: Check IPv4 addresses format
   * is_mac.py: Check MAC addresses format
   * logs_harverster.py: Find .log files recursively
