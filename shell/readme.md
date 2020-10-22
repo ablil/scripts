@@ -9,6 +9,7 @@ if you dont know shell, your are in the wrong place buddy.
 
   * backup_utility.sh: backup and archive a directory
   * cheader.sh: create C script and include necessary libraries
+  * express-app.sh: generate empty express app
   * fedora_config.sh: To run after installing fedora
   * gitproject.sh: Create new directory and init git automatically
   * header.sh: Add header to new file
