@@ -7,6 +7,7 @@ if you dont know shell, your are in the wrong place buddy.
 
 # Content
 
+  * add-custom-scripts.sh: copy *.sh scripts inside ~/.local/bin to use as built-in command
   * backup_utility.sh: backup and archive a directory
   * cheader.sh: create C script and include necessary libraries
   * express-app.sh: generate empty express app
