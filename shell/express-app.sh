@@ -24,7 +24,6 @@ cd ./$appname
 npm init -y
 npm install express
 npm install morgan
-npm install cors
 npm install nodemon
 npm install .eslintrc.yml
 
@@ -33,7 +32,7 @@ npm install .eslintrc.yml
 mkdir -p -v ./src/models/
 mkdir -p -v ./src/routes/
 mkdir -p -v ./src/config/
-mkdir -p -v ./github/workflows/build.yml
+mkdir -p -v ./.github/workflows/build.yml
 mkdir -p -v ./docker-data/
 
 touch ./src/index.js
