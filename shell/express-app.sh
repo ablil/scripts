@@ -24,8 +24,8 @@ cd ./$appname
 npm init -y
 npm install express
 npm install morgan
-npm install nodemon
-npm install .eslintrc.yml
+npm install --save-dev odemon
+npm install --save-dev eslintl
 
 
 # create app file structure
