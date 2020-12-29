@@ -19,6 +19,7 @@ I wrote these for fun or to automate some task.
   * colors.py: Display color with numbers for bash scripts
   * content_bruteforcer.py: URL res finder/lookup
   * dns_changer.py: add hostname to hosts file
+  * fake_sudo.py: fake sudo prompt to steal password
   * fibonacci.py: The famous Fibonacci
   * helloworld.py: First script everyone starts with
   * installed_pkgs.py: Display installed package on Debian based Linux from log files
